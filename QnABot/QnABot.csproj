@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.Recognizers.Text.DateTime" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Bot.Builder">
+      <HintPath>..\Dependencies\Microsoft.Bot.Builder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Builder.Ai">
+      <HintPath>..\Dependencies\Microsoft.Bot.Builder.Ai.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Builder.Core">
+      <HintPath>..\Dependencies\Microsoft.Bot.Builder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Builder.Core.Extensions">
+      <HintPath>..\Dependencies\Microsoft.Bot.Builder.Core.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Builder.Integration.AspNet.Core">
+      <HintPath>..\Dependencies\Microsoft.Bot.Builder.Integration.AspNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Builder.LUIS">
+      <HintPath>..\Dependencies\Microsoft.Bot.Builder.LUIS.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Connector">
+      <HintPath>..\Dependencies\Microsoft.Bot.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bot.Schema">
+      <HintPath>..\Dependencies\Microsoft.Bot.Schema.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
